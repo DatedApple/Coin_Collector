@@ -1,0 +1,9 @@
+<html>
+<frameset rows="5%,*" border="2" bordercolor="#0099DD">
+<frame src="prueba.html"></frame>
+<frameset cols="30,*" border="2" bordercolor="#0099DD">
+<frame src=nosyeuifijge.html"></frame>
+<frame src="practica d#1.html"></frame>
+</frameset>
+</frameset>
+</html>

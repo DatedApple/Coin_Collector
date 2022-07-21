@@ -1,0 +1,46 @@
+<html>
+<body bgcolor="#F0F0F0">
+
+<style>
+body
+{
+margin:8px
+}
+</style>
+
+<body>
+<font face="MS Sans Serif" color="#545454" size="5">
+<h2> Math and Chemistry videos </h2>
+
+<hr size="7px" color="#A8E6E6">
+
+Luis Fernando Domínguez <br> <br>
+
+	<iframe width="444" height="235" src="https://www.youtube.com/embed/bhW--uiPqwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr size="6px" color="#A4A4A4">
+
+Carlos Manríquez <br> <br>
+
+	<iframe width="444" height="235" src="https://www.youtube.com/embed/2OEIgiRRcJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr size="6px" color="#A4A4A4">
+
+Diego Ortiz <br> <br>
+
+	<iframe width="444" height="235" src="https://www.youtube.com/embed/ML0e1Bwnnjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr size="6px" color="#A4A4A4">
+
+Diego Peña <br> <br>
+
+	<iframe width="444" height="235" src="https://www.youtube.com/embed/yxswsItwDRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr size="6px" color="#A4A4A4">
+
+<br>
+<center>
+<img src="mapache.gif" alt="mapache" style="width="444" height="235"">
+</center>
+</body>
+</html>

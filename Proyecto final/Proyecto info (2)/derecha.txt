@@ -1,0 +1,174 @@
+<html>
+<head>
+<style>
+body
+{
+margin:20px
+}
+        table {
+          font-family: MS, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+          background-color: #A8E6E6
+       }
+
+        td, th {
+          border: 1px solid #000000;text-align: centered;
+          padding: 10px;
+        }
+</style>
+</head>
+<body bgcolor="#F0F0F0">
+<! background="staaar.PNG" >
+<font face="MS Sans Serif" color="#545454" size="5">
+
+
+
+<p> 
+	<h2><b>The Law of Sines</b></h2>
+	
+Sine (sin X) and cosine (cos X) are functions that apply in every triangle. Looking out from a vertex with angle θ, sin(θ) is the ratio of the opposite side to the hypotenuse, 
+	while cos(θ) is the ratio of the adjacent side to the hypotenuse.
+</p>
+
+
+<p align=justify style="line-height=200%"
+>
+	The Law of Sines is the relationship between the sides and angles of non-right (oblique) triangles. It states that the ratio of the length of a side of a triangle to the sine of the angle opposite that side is the 
+	same for all sides and angles in a given triangle. The law says:
+</p>
+
+<br><br> 
+<center>
+<a href="abc.png">
+<img src="abc.png">
+</a> 
+</center>
+
+<br><br>
+<p> That in this ABC triangle: </p> 
+
+<center>
+<img src="sinabc.png">
+</center>
+
+<p align=justify style="line-height=200%"
+> 
+	With this, we can use them to know other sides lengths and angles. EXAMPLE:
+<br>
+	Given two angles and an included side, find the remaining angle and sides. This is an AAS
+<br>
+	<i>ΔABC with ∠A=30° ∠B=20° and a=45 m.</i>  
+</p>
+
+<center>
+<img src="ex1.png">
+</center> 
+
+<p> 
+	The third angle of the triangle is
+<br>
+	<i>∠C=180°−∠A−∠B = 180°−30°−20°=130°</i>
+<br>
+	That means that ∠C=130°
+<br>
+	Now we can get this by replacing in the main formula that:
+<br>
+</p>
+
+<center>
+<img src="ex12.png">
+</center>
+
+<p> Then we can know b and c using the next functions. </p>
+
+<center>
+<img src="ex13.png">
+</center>
+
+<br><br>
+<a href="https://www.varsitytutors.com/hotmath/hotmath_help/topics/law-of-sines"> For more info click here!</a>
+
+
+<hr size="15px" color="#A8E6E6">
+<p>
+	<h2> The Law of Cosines </h2> 
+	In Trigonometry, the law of Cosines, also known as the Cosine Rule or Cosine Formula, basically 
+	relates the length of the triangle to the cosines of one of its angles. It states that, if the length of 
+	two sides and the angle between them is known for a triangle, then we can determine the length
+ 	of the third side. It is given by:
+ 
+	<i>c² = a² + b² – 2ab cos a</i>
+</p>
+
+<p align=justify style="line-height=200%"
+>
+		<h3> Problem and Solution </h3>
+	Let us understand the concept by solving one of the cosines law problems.
+	Problem: A triangle ABC has sides <i>a=10cm, b=7cm and c=5cm</i>. Now, find its angle ‘x’.
+	Solution:
+	Consider the below triangle as triangle ABC, where,
+	<i>a=10cm</i>
+	<i>b=7cm</i>
+	<i>c=5cm</i>
+<br>
+
+<center>
+<a href="abc.png">
+<img src="abc.png">
+</a>
+</center>
+
+</p>
+
+<p>
+		<h2> Law of Cosine Problems </h2>
+	By using cosines law,
+	<i>a2 = b2 + c2 – 2bc cos(x)</i>
+	Or
+	<i>cos x = (b2 + c2 – a2)/2bc</i>
+	We can substitute the value of the variables with the sides of the triangle, for example:
+	<br>
+	<i>cos(x) = (7^2 + 5^2 – 10^2)/(2 × 7 × 5)</i><br>
+	<i>cos(x)=(49 + 25 -100)/70</i><br>
+	<i>cos(x)= -0.37</i><br>
+	It is important to solve more problems based on cosines law formula by changing the values of sides a, b & c and cross-check the law of cosines calculator with other formulas.
+<hr size="15px" color="#A8E6E6">
+<h3>Examples:</h3>
+    <table>
+        <tbody><tr>
+            <th>Problem</th>
+            <th>Triangle</th>
+            <th>Measurements</th>
+		<th>Result</th>
+        </tr>
+<tr><th colspan="4">Law of sines</th></tr><tr>
+        <th>a=3<br>c=7<br>A=15°<br>B=?°</th>
+        <td><img src="Ejem1.jpg"></td><td>3/sin(15°)=7/sin B<br>3/.26=7/sin B<br>1.82=(3)sin B<br>sin^-1(.61)=B=37.35°</td>
+<th>B=37.35°</th>
+    </tr><tr>
+        <th>D=30°<br>E=72°<br>d=5<br>e=?</th>
+        <td><img src="Ejem2.jpg"></td><td>5/sin(30°)=e/sin(72°)<br>5/.5=e/.95<br>e/2=(5)(.95)<br>e=4.75*2<br>e=9.5</td>
+<th>e=9.5</th>
+    </tr>
+<tr><th colspan="4">Law of cosines</th></tr>
+<tr>
+            <th>a=7<br>b=10<br>c=15<br>B=?°</th>
+            <td><img src="Ejem3.jpg"></td>
+            <td>10^2=7^2+15^2-(2)(7)(15)cos B<br>100=274-210 cos B<br>100-274=210 cos B<br>-174=210 cos B<br>cos^-1(-.83)=B=145.95°</td>
+<th>B=145.95°</th>
+        </tr><tr>
+            <th>F=60°<br>e=4<br>d=3<br>f=?</th>
+            <td><img src="Ejem4.jpg"></td>
+            <td>f^2=4^2+3^2-(2)(3)(4)cos(60°)<br>f^2=25-(24)(1/2)<br>f^2=13<br>f=3.61</td>
+<th>f=3.61</th>
+        </tr>
+    
+    </tbody></table>
+<hr size="15px" color="#A8E6E6">
+<h2><b>Sines and Cosines Video</b></h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D6urzcRkWms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+</font>
+</body>
+<html>

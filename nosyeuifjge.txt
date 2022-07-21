@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table {
+  font-family: Tahoma, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #00BFFF
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: centered;
+  padding: 9px;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #B22222;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #DC143C;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #B22222;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #B22222;
+  border-top: none;
+  background-color: #ddd
+}
+</style>
+</head>
+<body style="background-image:url('https://mail.google.com/mail/u/0?ui=2&ik=bb230d7a4f&attid=0.1&permmsgid=msg-a:r-3566985412594577153&th=16a03cc85924f867&view=fimg&realattid=f_jua8puj40&disp=thd&attbid=ANGjdJ9oq8gmIXup9aYhU0qXeh_pTbpO2CjSIzoVgD3QwSKsjKKOzYcDSdZTwj6m1QjJq-kNwSDNjA_o9I1Qi3nk9Xg1ioGnTfGyubKC3xrHhqG-J55GDblK5ZEfKZk&ats=2524608000000&sz=w1366-h615');">
+
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Canciones</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Albumes</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Artistas</button>
+</div>
+
+<div id="London" class="tabcontent">
+<h3>Canciones</h3>
+  <ul>
+
+<li><a href="https://es.wikipedia.org/wiki/You_Really_Got_Me" style=font-family:tahoma >You Really Got Me por The Kinks </a></li> 
+<ul>
+<li><a href=https://open.spotify.com/track/29SyMC0plk6qw8NMF7lfRL style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Sweet_Emotion" style=font-family:tahoma>Sweet Emotion por Aerosmith</a></li> 
+<ul>
+<li><a href=https://open.spotify.com/track/24NwBd5vZ2CK8VOQVnqdxr style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Roadhouse_Blues" style=font-family:tahoma>Roadhouse Blues por The Doors</a> </li>
+<ul>
+<li><a href=https://open.spotify.com/track/1Q5kgpp4pmyGqPwNBzkSrw style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Carry_On_Wayward_Son" style=font-family:tahoma>Carry On Wayward Son por Kansas</a> </li>
+<ul>
+<li><a href=https://open.spotify.com/track/4DMKwE2E2iYDKY01C335Uw style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Baba_O'Riley" style=font-family:tahoma>Baba O'Riley por The Who</a> </li>
+<ul>
+<li><a href=https://open.spotify.com/track/3qiyyUfYe7CRYLucrPmulD style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Good_Times,_Bad_Times" style=font-family:tahoma>Good Times Bad Times por Led Zeppelin</a> </li>
+<ul>
+<li><a href=https://open.spotify.com/track/0QwZfbw26QeUoIy82Z2jYp style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Sympathy_for_the_Devil" style=font-family:tahoma>Sympathy For The Devil por The Rolling Stones</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/7lJt7vBDNUO8Mv8uELND1H style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Heroes_(canción)" style=font-family:tahoma>Heroes por David Bowie</a> </li>
+<ul>
+<li><a href=https://open.spotify.com/track/7Jh1bpe76CNTCgdgAdBw4Z style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Paint_It,_Black_" style=font-family:Tahoma>Paint It, Black por The Rolling Stones</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/63T7DJ1AFDD6Bn8VzG6JE8 style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/She27%s_Leaving_Home" style=font-family:tahoma>She's Leaving Home por The Beatles</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/3PjMtNzwhDHqxoKudm6GvF style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Heartbreaker_(canción_de_Led_Zepellin)" style=font-family:tahoma>Heartbreaker por Led Zeppelin</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/6WE7jSshLCuVKoCmobVKVf style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li style=font-family:tahoma>Star por David Bowie</li>
+<ul>
+<li><a href=https://open.spotify.com/track/5WfSHn8qVk1W3GJJQpETC1 style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Fixing_A_Hole" style=font-family:tahoma>Fixing A Hole por The Beatles</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/3pKKxkeB1pOUMHwWBmKc3Y style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Here,_There_And_Everywhere" style=font-family:tahoma>Here, There And Everywhere por The Beatles</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/2B4Y9u4ERAFiMo13XPJyGP style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Break_On_Through_(To_The_Other_Side)" style=font-family:tahoma>Break On Through (To The Other Side) por The Doors</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/6ToM0uwxtPKo9CMpbPGYvM style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Immigrant_Song" style=font-family:tahoma>Immigrant Song por Led Zeppelin</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/78lgmZwycJ3nzsdgmPPGNx style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Changes_(canción_de_David_Bowie)" style=font-family:tahoma>Changes por David Bowie</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/0LrwgdLsFaWh9VXIjBRe8t style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/A_Day_in_the_Life" style=font-family:tahoma>A Day In The Life por The Beatles</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/0hKRSZhUGEhKU6aNSPBACZ style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Stairway_to_Heaven" style=font-family:tahoma>Stairway     To Heaven por Led Zeppelin</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/5CQ30WqJwcep0pYcV4AMNc style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Lucy_in_the_Sky_with_Diamonds" style=font-family:tahoma>Lucy In The Sky With Diamonds por The Beatles</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/25yQPHgC35WNnnOUqFhgVR style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Drive_My_Car" style=font-family:tahoma>Drive My Car por The Beatles</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/06ypiqmILMdVeaiErMFA91 style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Shine_On_You_Crazy_Diamond" style=font-family:tahoma>Shine On You Crazy Diamond (pts. 1-5) por Pink Floyd</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/6pnwfWyaWjQiHCKTiZLItr style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Only_a_Northern_Song" style=font-family:tahoma>Only A Northern Song por The Beatles</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/4phXWLTSlC1BEogSWhJMDD style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Come_and_Get_It_(Badfinger_song)" style=font-family:tahoma>Come And Get It por Badfinger</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/4phXWLTSlC1BEogSWhJMDD style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Purple_Haze" style=font-family:tahoma>Purple Haze por The Jimi Hendrix Experience</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/0wJoRiX5K5BxlqZTolB2LD style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+<li><a href="https://es.wikipedia.org/wiki/Strawberry_Fields_Forever" style=font-family:tahoma>Strawberry Fields Forever por The Beatles</a></li>
+<ul>
+<li><a href=https://open.spotify.com/track/3Am0IbOxmvlSXro7N5iSfZ style=font-family:tahoma>Escuchala en Spotify</a>
+</ul>
+
+
+    </ul>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Albumes</h3>
+  <ul>
+  <li><a href="https://es.wikipedia.org/wiki/Kinks_(album)" style=font-family:tahoma> Kinks por The Kinks</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/08G3mGQXuHItbbsFAz50gJ>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href="https://es.wikipedia.org/wiki/Toys_in_the_Attic_(album)"> Toys in The Attic por Aerosmith</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/36IxIOGEBAXVozDSiVs09B>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href="https://es.wikipedia.org/wiki/Morrison_Hotel"> Morrison Hotel por The Doors</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/6AFLOkpJjFF652jevcSOZX>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href="https://es.wikipedia.org/wiki/Leftoverture"> Leftoverture por Kansas</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/7MejfRSNnrpcLZIxkeZDqR>Escuchalo en Spotify</a>
+  </ul>
+   <li><a style=font-family:tahoma href="https://es.wikipedia.org/wiki/Who%27s_Next"> Who's Next por The Who</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/5MqyhhHbT13zsloD3uHhlQ>Escuchalo en Spotify</a>
+  </ul>
+   <li><a style=font-family:tahoma href="https://es.wikipedia.org/wiki/Led_Zeppelin_(álbum)"> Led Zeppelin por Led Zeppelin</a></li>
+  <ul>
+  <li><a href=https://open.spotify.com/album/3ycjBixZf7S3WpC5WZhhUK>Escuchalo en Spotify</a>
+  </ul>
+   <li><a style=font-family:tahoma href="https://es.wikipedia.org/wiki/Beggars_Banquet"> Beggars Banquet por The Rolling Stones</a></li>
+  <ul>
+   <li><a style=font-family:tahoma href=https://open.spotify.com/album/14K2lQE428avC6lVb8Y7HM>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/“Heroes”> Heroes por David Bowie</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/4I5zzKYd2SKDgZ9DRf5LVk>Escuchalo en Spotify</a>
+  </ul>
+
+   <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/Aftermath_(álbum)> Aftermath por The Rolling Stones</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/4ripTIExdRRWGhha01lWxS>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/“Heroes”> Sgt. Peppers Lonely Hearts Club Band por The Beatles</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/6QaVfG1pHYl1z15ZxkvVDW>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/Led_Zeppelin_II> Led Zeppelin II por Led Zeppelin</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/70lQYZtypdCALtFVlQAcvx>Escuchalo en Spotify</a> </ul>
+    <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/The_Rise_and_Fall_of_Ziggy_Stardust_and_the_Spiders_from_Mars> The Rise And Fall From Ziggy Stardust And The Spiders from Mars por David Bowie</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/48D1hRORqJq52qsnUYZX56>Escuchalo en Spotify</a>
+ 
+  </ul>
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/Revolver_(álbum)> Revolver por The Beatles</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/3PRoXYsngSwjEQWR5PsHWR>Escuchalo en Spotify</a>
+  </ul>
+
+  
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/The_Doors_(álbum)> The Doors por The Doors</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/1jWmEhn3ggaL6isoyLfwBn>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/Led_Zeppelin_III> Led Zeppelin III por Led Zeppelin</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/4I5zzKYd2SKDgZ9DRf5LVk>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/Hunky_Dory> Hunky Dory por David Bowie</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/6fQElzBNTiEMGdIeY0hy5l>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/Led_Zeppelin_IV> Led Zeppelin IV por Led Zeppelin</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/1Ugdi2OTxKopVVqsprp5pb>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/Rubber_Soul> Rubber Soul por The Beatles</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/50o7kf2wLwVmOTVYJOTplm>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/“Heroes”> Wish You Were Here por Pink Floyd</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/0bCAjiUamIFqKJsekOYuRw>Escuchalo en Spotify</a>
+  </ul>
+   <li><a style=font-family:tahoma href=https://en.wikipedia.org/wiki/Yellow_Submarine_(album)> Yellow Submarine por The Beatles</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/1gKZ5A1ndFqbcrWtW85cCy>Escuchalo en Spotify</a>
+  </ul>
+    <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/Magic_Christian_Music> Magic Christian Music por Badfinger</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/6uA2hir5o45vrILeqQVTbr>Escuchalo en Spotify</a>
+  </ul>
+    <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/Are_You_Experienced> Are You Experienced por The  Jimi Hendrix Experience</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/album/7rSZXXHHvIhF4yUFdaOCy9>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma> Strawberry Field Forever/Penny Lane por The  Beatles</a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/playlist/7x1D3O8Tcd6tbABJyOpWHw>Escuchalo en Spotify</a>
+  </ul>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Artistas</h3>
+  <ul>
+  <li><a href=https://es.wikipedia.org/wiki/The_Kinks style=font-family:tahoma> The Kinks </a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/1SQRv42e4PjEYfPhS0Tk9E>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/Aerosmith> Aerosmith </a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/7Ey4PD4MYsKc5I2dolUwbH>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/The_Doors>The Doors </a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/Kansas_(banda)>Kansas </a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/2hl0xAkS2AIRAu23TVMBG1>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://en.wikipedia.org/wiki/The_Who>The Who </a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/67ea9eGLXYMsO2eYQRui3w>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://en.wikipedia.org/wiki/Led_Zeppelin>Led Zeppelin </a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp>The Rolling Stones </a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/22bE4uQ6baNwSHPVcDxLCe>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://en.wikipedia.org/wiki/David_Bowie>David Bowie </a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://en.wikipedia.org/wiki/The_Beatles>The Beatles </a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2>Escuchalo en Spotify</a>
+  </ul>
+  <li><a style=font-family:tahoma href=https://en.wikipedia.org/wiki/Pink_Floyd>Pink Floyd </a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9>Escuchalo en Spotify</a>
+  </ul>
+   <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/Badfinger>Badfinger </a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/4pJCawaKSZ40EnxN0YEYw3>Escuchalo en Spotify</a>
+  </ul>
+ <li><a style=font-family:tahoma href=https://es.wikipedia.org/wiki/The_Jimi_Hendrix_Experience>The Jimi Hendrix Experience </a></li>
+  <ul>
+  <li><a style=font-family:tahoma href=https://open.spotify.com/artist/776Uo845nYHJpNaStv1Ds4>Escuchalo en Spotify</a>
+  </ul>
+  
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+<p  style="font-family:verdana;font-size:200%;color:white;background-color:black;text-align:center">Lo que escuche haciendo esta tabla</p>
+
+
+<table>
+  <tr>
+    <th>Canción</th>
+    <th>Album / Sencillo</th>
+    <th>Artista</th>
+    <th>Año</th>
+  </tr>
+  <tr>
+    <td>You Really Got Me</td>
+    <td>Kinks<p><img src=https://upload.wikimedia.org/wikipedia/en/3/37/KinksTheKinks.jpg style="width:200px;height:200px;"></p></td>
+    <td>The Kinks</td>
+    <td>1964</td>
+  </tr>
+  <tr>
+    <td>Sweet Emotion</td>
+    <td>Toys in the Attic<p><img src=https://m.media-amazon.com/images/I/81OFKaR4nnL._SS500_.jpg  style="width:200px;height:200px;"></p></td>
+    <td>Aerosmith</td>
+    <td>1975</td>
+    </tr>
+    <tr>
+    <td>Roadhouse Blues</td>
+    <td>Morrison Hotel<p><img src=https://images-na.ssl-images-amazon.com/images/I/41MVK1F7A7L.jpg  style="width:200px;height:200px;"></p></td>
+    <td>The Doors</td>
+    <td>1970</td>
+  </tr>
+ <tr>
+    <td>Carry on Wayward Son</td>
+    <td>Leftoverture<p><img src=https://upload.wikimedia.org/wikipedia/en/a/a3/Kansas_-_Leftoverture.jpg  style="width:200px;height:200px;"></p></td>
+    <td>Kansas</td>
+    <td>1976</td>
+  </tr>
+  <tr>
+    <td>Baba O'Riley</td>
+    <td>Who's Next<p><img src=http://3.bp.blogspot.com/-sz5JSoR73CA/UgrQcSgQTyI/AAAAAAAAAPY/CW87Y8CVJsw/s1600/Whos-Next2.jpg  style="width:200px;height:200px;"></p></td>
+    <td>The Who</td>
+    <td>1971</td>
+  </tr>
+   <tr>
+    <td>Good Times Bad Times</td>
+    <td>Led Zeppelin<p><img src=https://images-na.ssl-images-amazon.com/images/I/51SUWsbmnHL._SX450_.jpg  style="width:200px;height:200px;"></p></td>
+    <td>Led Zeppelin</td>
+    <td>1969</td>
+  </tr>
+  <tr>
+    <td>Sympathy For The Devil</td>
+    <td>Beggars Banquet<p><img src=http://www.galeriamusical.com.br/images/albuns/beggars.jpg  style="width:200px;height:200px;"></p></td>
+    <td>The Rolling Stones</td>
+    <td>1968</td>
+  </tr>
+ <tr>  
+    <td>Heroes</td>
+    <td>Heroes<p><img src=https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/David_Bowie_-_Heroes.png/220px-David_Bowie_-_Heroes.png  style="width:200px;height:200px;"></p></td>
+    <td>David Bowie</td>
+    <td>1977</td>
+  </tr>
+ <tr>
+    <td>Paint It Black</td>
+    <td>Aftermath<p><img src=https://is2-ssl.mzstatic.com/image/thumb/Music2/v4/48/9b/42/489b42eb-5fb7-45e3-9027-feee5beca974/UMG_cvrart_00018771894520_01_RGB72_1500x1500_13ABKIM00063.jpg/600x600bf.png  style="width:200px;height:200px;"></p></td>
+    <td>The Rolling Stones</td>
+    <td>1966</td>
+  </tr>
+  <tr>
+    <td>She's Leaving Home</td>
+    <td>Sgt. Peppers Lonely Hearts Club Band<p><img src=https://889noticias.mx/wp-content/uploads/2017/05/The-Beatles-Sgt.-Peppers-Lonely-Hearts-Club-Band.jpeg style="width:200px;height:200px;"></p></td>
+    <td>The Beatles</td>
+    <td>1967</td>
+  </tr>
+     <tr>
+    <td>Heartbreaker</td>
+    <td>Led Zeppelin II<p><img src=https://images-na.ssl-images-amazon.com/images/I/7104DQL5opL._SY355_.jpg  style="width:200px;height:200px;"></p></td>
+    <td>Led Zeppelin</td>
+    <td>1969</td>
+  </tr>
+    
+  
+
+  <tr>
+    <td>Star</td>
+    <td>The Rise And Fall From Ziggy Stardust And The Spiders from Mars<p><img src=https://static.fnac-static.com/multimedia/Images/ES/NR/89/2e/12/1191561/1507-1.jpg  style="width:200px;height:200px;"></p></td>
+    <td>David Bowie</td>
+    <td>1970</td>
+  </tr>
+   <tr>
+    <td>Fixing a Hole</td>
+    <td>Sgt. Peppers Lonely Hearts Club Band<p><img src=https://889noticias.mx/wp-content/uploads/2017/05/The-Beatles-Sgt.-Peppers-Lonely-Hearts-Club-Band.jpeg style="width:200px;height:200px;"></p></td>
+    <td>The Beatles</td>
+    <td>1967</td>
+  </tr>
+ <tr>
+    <td>Here,There and Everywhere</td>
+    <td>Revolver<p><img src=https://upload.wikimedia.org/wikipedia/en/1/16/Revolver.jpg  style="width:200px;height:200px;"></p></td>
+    <td>The Beatles</td>
+    <td>1966</td>
+  </tr>
+  <tr>
+    <td>Break On Through (To The Other Side)</td>
+    <td>The Doors<p><img src=https://toxicrock.files.wordpress.com/2014/01/04enerothedoors.jpg?w=560   style="width:200px;height:200px;"></p></td>
+    <td>The Doors</td>
+    <td>1967</td>
+  </tr>
+   <tr>
+    <td>Immigrant Song</td>
+    <td>Led Zeppelin III<p><img src=https://www.rollingstone.com/wp-content/uploads/2018/06/rs-148899-iii-1400176737.jpg?crop=900:600&width=440  style="width:200px;height:200px;"></p></td>
+    <td>Led Zeppelin</td>
+    <td>1970</td>
+  </tr>
+   <tr>
+    <td>Changes</td>
+    <td>Hunky Dory<p><img src=https://images-eu.ssl-images-amazon.com/images/I/615lYruUjIL._SS500.jpg  style="width:200px;height:200px;"></p></td>
+    <td>David Bowie</td>
+    <td>1971</td>
+  </tr>
+   <tr>
+    <td>A Day In The Life</td>
+    <td>Sgt. Peppers Lonely Hearts Club Band<p><img src=https://889noticias.mx/wp-content/uploads/2017/05/The-Beatles-Sgt.-Peppers-Lonely-Hearts-Club-Band.jpeg  style="width:200px;height:200px;"></p></td>
+    <td>The Beatles</td>
+    <td>1967</td>
+  </tr>
+  <tr>
+    <td>Stairway To Heaven</td>
+    <td>Led Zeppelin IV<p><img src=https://images-na.ssl-images-amazon.com/images/I/61qTE9kINgL._SX355_.jpg  style="width:200px;height:200px;"></p></td>
+    <td>Led Zeppelin</td>
+    <td>1972</td>
+  </tr>
+   <tr>
+    <td>Lucy In The Sky With Diamonds</td>
+    <td>Sgt. Peppers Lonely Hearts Club Band<p><img src=https://889noticias.mx/wp-content/uploads/2017/05/The-Beatles-Sgt.-Peppers-Lonely-Hearts-Club-Band.jpeg  style="width:200px;height:200px;"></p></td>
+    <td>The Beatles</td>
+    <td>1967</td>
+  </tr>
+  <tr>
+    <td>Drive My Car</td>
+    <td>Rubber Soul<p><img src=https://d2s36jztkuk7aw.cloudfront.net/sites/default/files/tile/image/original_450.jpg  style="width:200px;height:200px;"></p></td>
+    <td>The Beatles</td>
+    <td>1965</td>
+  </tr>
+  <tr>
+  <td>Shine On You Crazy Diamond (pts. 1-5)</td>
+  <td>Wish You Were Here<p><img src=https://images-na.ssl-images-amazon.com/images/I/71m0ofUWYXL._SL1300_.jpg  style="width:200px;height:200px;"></p></td>
+  <td>Pink Floyd</td>
+  <td>1975</td>
+  </tr>
+  <tr>
+  <td>Only A Northern Song</td>
+  <td>Yellow Submarine<p><img src=https://www.audiofilo.cl/wp-content/uploads/2018/03/AU-NU-0096.jpg  style="width:200px;height:200px;"></p></td>
+  <td>The Beatles</td>
+  <td>1969</td>
+  </tr>
+  <tr>
+  <td>Come And Get It</td>
+  <td>Magic Christian Music<p><img src=https://images-na.ssl-images-amazon.com/images/I/51XpAPXuUBL._SX355_.jpg  style="width:200px;height:200px;"></p></td>
+  <td>Badfinger</td>
+  <td>1970</td>
+   </tr>
+  <tr>
+  <td>Purple Haze</td>
+  <td>Are You Experienced<p><img src=https://upload.wikimedia.org/wikipedia/commons/3/33/Are_You_Experienced_-_US_cover-edit.jpg  style="width:200px;height:200px;"></p></td>
+  <td>The Jimi Hendrix Experience</td>
+  <td>1967</td>
+  </tr>
+  <tr>
+  <td>Strawberry Fields Forever</td>
+  <td>Strawberry Field Forever / Penny Lane<p><img src=https://www.beatlesbible.com/wp/media/uk_penny-lane-strawberry-fields-forever_02.jpg style="width:200px;height:200px;"></p></td>
+  <td>The Beatles</td>
+  <td>1967</td>
+</table>
+
+
+</body>
+</html>

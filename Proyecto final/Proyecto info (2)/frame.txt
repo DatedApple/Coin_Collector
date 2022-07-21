@@ -1,0 +1,9 @@
+<html>
+<title> Sines & Cosines </title>
+<frameset rows="19%,*">
+<frame src="superior.html"></frame>
+<frameset cols="25%,*">
+<frame src="izquierda.html"></frame>
+<frame src="derecha.html"></frame>
+</frameset>
+</html>
